@@ -1,0 +1,28 @@
+{
+  "name": "p4u_website",
+  "version": "1.0.0",
+  "description": "Application to run the planting4U webpage",
+  "main": "server_handler.js",
+  "scripts": {
+    "devStart": "nodemon server_handler.js"
+  },
+  "keywords": [
+    "data",
+    "irrigation_system",
+    "automation"
+  ],
+  "author": "Patrick Tietz",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.2",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7"
+  }
+}

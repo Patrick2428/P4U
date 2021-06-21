@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Planting4U</title>
+    <link href="./index_style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div align="center">
+      <form class="login" id="login" action="./home.html" method="get">
+        <div class="title">
+          <header>
+            <h1>Login</h1>
+          </header>
+        </div>
+        <figure>
+          <img src="./logo/P4U-logo.PNG" height="150" width="180">
+        </figure>
+          <div class="input">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" required>
+          </div>
+          <label id="error_msg"></label>
+            <br>
+            <br>
+          <input class ="button" type="submit" value="Login" onclick="button_event()">
+        <br>
+        <br>
+        <br>
+      </form>
+    </div>
+    <script defer src="./index_page.js"></script>
+  </body>
+</html>

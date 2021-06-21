@@ -1,0 +1,59 @@
+
+.data_form{
+    background-color: darkslategray;
+    border: 3px solid black;
+    width: 800px;
+    height: 900px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.data_form header{
+    color: black;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+    /* background-color:cornflowerblue; */
+    background-blend-mode:darken;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.data_form figure{
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;  
+}
+
+.data_form tr{
+    text-align: left;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.data_form table{
+    border-spacing: 18px;
+}
+
+
+.data_form .mbutton{
+    width: 85px;
+    height: 35px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 7px;
+    left: 10px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.data_form textarea{
+    font-size: 24px;
+    resize: none;
+    width: 150px;
+    position: relative;
+    top:5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
